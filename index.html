@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancestralidade Viva | Moda e Cultura Indígena</title>
+    <style>
+        :root {
+            --primary: #5c4033; /* Marrom terra */
+            --secondary: #e2725b; /* Terracota */
+            --accent: #2d5a27; /* Verde floresta */
+            --light: #fdfaf6;
+            --dark: #222;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #4a342a;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1000') center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--secondary);
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 10px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-info {
+            padding: 20px;
+        }
+
+        .product-category {
+            color: var(--secondary);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .story-box {
+            background: #f0e6dd;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .btn-buy {
+            display: block;
+            background: var(--accent);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ancestralidade Viva</h1>
+    <p>Conectando a sabedoria das matas à civilização moderna</p>
+</header>
+
+<nav>
+    <a href="#">INÍCIO</a>
+    <a href="#">PRODUTOS</a>
+    <a href="#">NOSSA HISTÓRIA</a>
+    <a href="#">CONTATO</a>
+</nav>
+
+<div class="hero">
+    <div>
+        <h2>Arte que carrega história, moda que preserva vidas.</h2>
+        <p>Cada peça conta a jornada de um povo.</p>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="section-title">Coleção e Saberes</h2>
+    
+    <div class="products">
+        <div class="product-card">
+            <div style="height:200px; background:#ddd; display:flex; align-items:center; justify-content:center; color:#666;"></div>
+            <div class="product-info">
+                <span class="product-category">Vestuário Tradicional</span>
+                <h3>Túnica Grafismo Kayapó</h3>
+                <p>Feita com algodão orgânico e tingimento natural de urucum.</p>
+                <div class="story-box">
+                    <strong>Como foi feita:</strong> Os padrões representam a proteção da aldeia. Cada traço é pintado manualmente por mulheres da comunidade, preservando técnicas de milênios.
+                </div>
+                <a href="#" class="btn-buy">Ver Detalhes / Comprar</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div style="height:200px; background:#ddd; display:flex; align-items:center; justify-content:center; color:#666;"></div>
+            <div class="product-info">
+                <span class="product-category">Acessórios</span>
+                <h3>Colar de Sementes Jarina</h3>
+                <p>O "marfim vegetal" da Amazônia em design contemporâneo.</p>
+                <div class="story-box">
+                    <strong>Como foi feita:</strong> As sementes são coletadas de forma sustentável no chão da floresta, sem derrubar árvores, e polidas com óleos naturais.
+                </div>
+                <a href="#" class="btn-buy">Ver Detalhes / Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Ancestralidade Viva - Todos os direitos reservados.</p>
+    <p>Fortalecendo comunidades originárias através do comércio justo.</p>
+</footer>
+
+</body>
+</html>
