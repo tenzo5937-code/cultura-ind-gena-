@@ -3,171 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ancestralidade Viva | Moda e Cultura Indígena</title>
+    <title>Ancestralidade Viva | Cultura Indígena</title>
     <style>
-        :root {
-            --primary: #5c4033; 
-            --secondary: #e2725b; 
-            --accent: #2d5a27; 
-            --light: #fdfaf6;
-            --dark: #222;
-        }
-
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
-            background-color: var(--light);
-            color: var(--dark);
-            scroll-behavior: smooth;
-        }
-
-        header {
-            background-color: var(--primary);
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            background: #4a342a;
-            padding: 15px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 0.8rem;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 40px 20px;
-        }
-
-        .section-title {
-            text-align: center;
-            color: var(--primary);
-            margin-bottom: 40px;
-            border-bottom: 2px solid var(--secondary);
-            padding-bottom: 10px;
-        }
-
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .product-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .product-image {
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-            background: #eee;
-        }
-
-        .product-info {
-            padding: 20px;
-        }
-
-        .story-box {
-            background: #f0e6dd;
-            padding: 15px;
-            border-radius: 8px;
-            font-size: 0.9rem;
-            margin: 15px 0;
-            border-left: 4px solid var(--secondary);
-        }
-
-        .btn-buy {
-            display: block;
-            background: var(--accent);
-            color: white;
-            text-align: center;
-            padding: 12px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-        }
-
-        #sobre { background: #fff; padding: 60px 20px; text-align: center; }
-
-        footer {
-            background: var(--dark);
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
+        :root { --primary: #5c4033; --secondary: #e2725b; --accent: #2d5a27; --light: #fdfaf6; --dark: #222; }
+        body { font-family: sans-serif; margin: 0; background-color: var(--light); color: var(--dark); scroll-behavior: smooth; }
+        header { background-color: var(--primary); color: white; padding: 40px 20px; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 15px; background: #4a342a; padding: 15px; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: white; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .container { max-width: 1100px; margin: auto; padding: 40px 20px; }
+        .section-title { text-align: center; color: var(--primary); margin-bottom: 40px; border-bottom: 2px solid var(--secondary); padding-bottom: 10px; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .product-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .product-image { width: 100%; height: 400px; object-fit: cover; background: #eee; }
+        .product-info { padding: 20px; }
+        .story-box { background: #f0e6dd; padding: 15px; border-radius: 8px; font-size: 0.9rem; margin: 15px 0; border-left: 4px solid var(--secondary); }
+        .btn-buy { display: block; background: var(--accent); color: white; text-align: center; padding: 12px; text-decoration: none; border-radius: 6px; font-weight: bold; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 40px 20px; margin-top: 40px; }
     </style>
 </head>
 <body>
-
 <header>
     <h1>Ancestralidade Viva</h1>
-    <p>A arte dos povos originários na sua casa</p>
+    <p>Arte e Sabedoria dos Povos Originários</p>
 </header>
-
 <nav>
     <a href="#">INÍCIO</a>
     <a href="#produtos">PRODUTOS</a>
-    <a href="#sobre">NOSSA HISTÓRIA</a>
 </nav>
-
 <div class="container" id="produtos">
     <h2 class="section-title">Coleção Autêntica</h2>
-    
     <div class="products">
         <div class="product-card">
-            <img src="produto1.png" alt="Grafismo Kayapó" class="product-image">
+            <img src="IMG_0579.jpeg" alt="Arte Kayapó" class="product-image">
             <div class="product-info">
                 <h3>Grafismo Nhak-Moro</h3>
-                <p>Pintura tradicional em tecido natural.</p>
-                <div class="story-box">
-                    <strong>A História:</strong> Este padrão geométrico representa a pele da serpente e a proteção. É uma técnica de pintura manual que carrega a identidade do povo Kayapó.
-                </div>
+                <div class="story-box"><strong>História:</strong> Representa a pele da serpente e a proteção do povo Kayapó.</div>
                 <a href="https://wa.me/SEUNUMERO" class="btn-buy">Comprar via WhatsApp</a>
             </div>
         </div>
-
         <div class="product-card">
-            <img src="produto2.png" alt="Colar Indígena" class="product-image">
+            <img src="IMG_0580.jpeg" alt="Colar de Jarina" class="product-image">
             <div class="product-info">
-                <h3>Colar de Sementes Nobres</h3>
-                <p>Peça exclusiva feita com colheita sustentável.</p>
-                <div class="story-box">
-                    <strong>A História:</strong> As sementes são tratadas com óleos naturais para brilho e durabilidade. Um acessório que une elegância e respeito à floresta.
-                </div>
-                <a href="https://wa.me/SEUNUMERO" class="btn-buy">Comprar via WhatsApp</a>
+                <h3>Colar de Jarina</h3>
+                <div class="story-box"><strong>História:</strong> Feito de Marfim Vegetal colhido de forma sustentável.</div>
+                <a href="https://wa.me/5596991012212" class="btn-buy">Comprar via WhatsApp</a>
             </div>
         </div>
     </div>
 </div>
-
-<section id="sobre">
-    <div class="container">
-        <h2 class="section-title">Nossa História</h2>
-        <p>A Ancestralidade Viva nasceu para ser uma ponte. Queremos que cada peça comercializada ajude a sustentar as comunidades indígenas e a manter viva a cultura dos grafismos e do artesanato ancestral.</p>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2026 Ancestralidade Viva</p>
-    <p>Valorize o artista indígena.</p>
-</footer>
-
+<footer><p>&copy; 2026 Ancestralidade Viva</p></footer>
 </body>
 </html>
+
